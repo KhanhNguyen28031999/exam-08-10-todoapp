@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo-app{
+  width: 1000px;
+  height: 1000px;
+  background-color: antiquewhite;
+  margin: 0 auto;
+}
+.todo-header{
+  padding-bottom: 12px;
+  text-align: center;
+  font-size: xx-large;
+}
+.todo-task-sort{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.filter-btn{
+  border: solid 1px rgb(119, 210, 236);
+  border-radius: 10px;
+  padding: 4px 9px;
+  color: chocolate;
+  background-color: aqua;
+  cursor: pointer;
+}
+.filter-btn1{
+  border: solid 1px rgb(119, 210, 236);
+  border-radius: 10px;
+  padding: 4px 38.93px;
+  color: chocolate;
+  background-color: aqua;
+  cursor: pointer;
+  
+}
+.filter-btn2{
+  border: solid 1px rgb(119, 210, 236);
+  border-radius: 10px;
+  padding: 4px 26.44px;
+  color: chocolate;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.filter-btn:hover{
+  color: whitesmoke;
+  background-color: darkblue;
+}
+.filter-btn1:hover{
+  color: whitesmoke;
+  background-color: darkblue;
+}
+.filter-btn2:hover{
+  color: whitesmoke;
+  background-color: darkblue;
+}
+.todo-task-list{
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  padding-top: 30px;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: larger;
+}
+.task-list input{
+  margin-right: 5px;
+}
+.todo-task-delete{
+  float: right;
+  padding: 2px 4px;
+  margin-bottom: 4px;
+  background-color: antiquewhite;
+  color: rgb(230, 33, 33);
+  border-color: coral;
+}
+.todo-task-delete:hover{
+  background-color:rgb(230, 33, 33) ;
+  color: rgb(216, 123, 89);
+}
+.todo-task-completed{
+  font-style: italic;
+  text-decoration: line-through;
+  color: rgb(151, 140, 140);
+}
+.todo-task-btn0{
+  display: flex;
+  justify-content: center;
+  ;
+  padding-top: 30px;
+}
+.todo-task-btn{
+  padding: 12px 180px;
+  margin-right: 15px;
+  background-color: brown;
+  color: whitesmoke;
+  border-radius: 15px;
+}
+.todo-task-btn:hover{
+  background-color: rgb(38, 10, 10);
+}
+.todo-task-btn-delete-all{
+  padding: 12px 25px;
+  background-color: coral;
+  color: whitesmoke;
+  border-radius: 15px;
+}
+.todo-task-btn-delete-all:hover{
+  background-color: rgb(38, 10, 10);
+}
